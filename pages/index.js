@@ -32,7 +32,7 @@ const Home = () => {
             placeholder='Type something'
             required
             />
-          <button>Buscar</button>
+          <button>Search</button>
         </form>
         <List elements={list} />
       </main>
