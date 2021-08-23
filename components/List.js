@@ -1,8 +1,10 @@
+import styles from '../styles/list.module.css'
+
 const List = (props) => {
     const {elements} = props;
 
     return (elements.length > 0) ? (
-        <div>
+        <div className={styles.list}>
             {elements.map(element => {
                 return <img
                             src={element.urls.small} 
